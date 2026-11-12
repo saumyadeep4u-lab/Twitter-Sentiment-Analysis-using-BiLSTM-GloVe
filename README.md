@@ -81,4 +81,4 @@ This project demonstrates how Sentiment Analysis drives measurable business valu
 1. **Clone the repository:** `git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git`
 2. **Open the project folder:** `cd YOUR-REPO-NAME`
 3. **Install dependencies:** `pip install -r requirements.txt`
-4. **Launch the Streamlit app:** `streamlit run app.py`
+4. **Launch the Streamlit app:** `streamlit run deploy.py`
