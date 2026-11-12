@@ -5,6 +5,25 @@ An end-to-end Sentiment Analysis system that classifies text into **Positive**, 
 🌐 **Live Demo:** [Try the Streamlit Web App Here](https://YOUR-STREAMLIT-LINK.streamlit.app)
 
 ---
+## 📂 Project Structure
+
+```text
+Twitter_Sentiment_Analysis/
+├── Data/
+│   ├── Twitter_Data.csv          # Raw Twitter sentiment dataset
+│   └── cleaned_data.csv          # Preprocessed dataset ready for training
+├── Notebooks/
+│   ├── EDA.ipynb                 # Exploratory Data Analysis notebook
+│   └── preprocessing.ipynb       # Text cleaning & preprocessing workflow
+├── SRC/
+│   └── training.py               # BiLSTM + GloVe model training script
+├── deploy.py                     # Streamlit web application script
+├── best_model.h5                 # Best checkpointed BiLSTM model weights
+├── sentiment_model.h5            # Trained BiLSTM model (H5 format)
+├── sentiment_model.keras         # Trained BiLSTM model (Keras format)
+├── tokenizer.joblib              # Fitted Keras tokenizer
+├── requirements.txt              # Python dependencies for deployment
+└── README.md                     # Project documentation
 
 ## 🚀 Features
 - 🔥 **Deep Learning Model:** Bidirectional LSTM (BiLSTM) for context-aware sequence modeling
@@ -78,7 +97,7 @@ This project demonstrates how Sentiment Analysis drives measurable business valu
 
 ## 💻 How to Run Locally
 
-1. **Clone the repository:** `git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git`
-2. **Open the project folder:** `cd YOUR-REPO-NAME`
+1. **Clone the repository:** `git clone https://github.com/saumyadeep4u-lab/Twitter-Sentiment-Analysis-using-BiLSTM-GloVe.git`
+2. **Open the project folder:** `cd Twitter-Sentiment-Analysis-using-BiLSTM-GloVe`
 3. **Install dependencies:** `pip install -r requirements.txt`
 4. **Launch the Streamlit app:** `streamlit run deploy.py`
