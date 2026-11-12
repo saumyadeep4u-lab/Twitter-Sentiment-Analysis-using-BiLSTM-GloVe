@@ -2,7 +2,7 @@
 
 An end-to-end Sentiment Analysis system that classifies text into **Positive**, **Neutral**, or **Negative** using a Deep Learning model (BiLSTM with pre-trained GloVe embeddings), hybrid rule-based NLP enhancements, and an interactive Streamlit web app.
 
-🌐 **Live Demo:** [Try the Streamlit Web App Here](https://YOUR-STREAMLIT-LINK.streamlit.app)
+🌐 **Live Demo:** [Try the Streamlit Web App Here](https://twitter1-sentiment-bilstm.streamlit.app/)
 
 ---
 ## 📂 Project Structure
